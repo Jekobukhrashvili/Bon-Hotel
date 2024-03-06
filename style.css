@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.navigation ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: auto;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #957554;
+}
+
+.section-1 {
+  height: 100vh;
+  background-image: url("Images/Mainimage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+.flex-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+  gap: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Ubuntu";
+  line-height: auto;
+  color: white;
+}
+
+.text p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: auto;
+  color: white;
+  font-family: "Ubuntu";
+}
+
+.text > button {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  border-style: none;
+  padding: 25px 130px;
+  background-color: #dfaa5b;
+  color: white;
+  border-radius: 10px;
+}
+
+.title-2 {
+  text-align: center;
+  font-size: 45px;
+  line-height: auto;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  color: #957554;
+  margin-bottom: 47px;
+}
+
+.rooms-card {
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+}
+
+.rooms-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards-content {
+  position: absolute;
+  left: 0%;
+  bottom: 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 40px;
+  font-family: "Ubuntu";
+  font-weight: 500;
+  line-height: auto;
+  color: white;
+}
+
+.button {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  line-height: auto;
+  background-color: #dfaa5b;
+  border-style: none;
+  padding: 24px 52px 24px 56px;
+  border-radius: 10px;
+  color: white;
+}
+
+.rooms-gallery {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.section-2 {
+  margin-bottom: 55px;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+
+.third-section h2 {
+  font-size: 45px;
+  line-height: auto;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  color: #957554;
+}
+
+.section-text button {
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  border-style: none;
+  background-color: #dfaa5b;
+  color: white;
+  border-radius: 10px;
+  padding: 24px 157px 24px 147px;
+}
+
+.last-section {
+  margin-bottom: 122px;
+}
+
+.footer {
+  background-color: #111111;
+  height: 459px;
+  width: 1340px;
+  margin: 0 auto;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.nav-menu ul li {
+  font-size: 24px;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  color: white;
+  list-style: none;
+}
+
+.footer-info h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  color: white;
+}
+
+.footer-info p {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Ubuntu";
+  color: white;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 123px 140px 55px;
+}
+
+.footer-logo {
+  width: 154px;
+  height: 126px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
